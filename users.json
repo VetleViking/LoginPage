@@ -1,0 +1,20 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "name": "John Doe",
+            "email": "JohnDoe@gmail.com",
+            "password": "123456",
+            "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pexels.com%"
+        },
+
+        {
+            "id": 2,
+            "nname": "John Doe 2",
+            "email": "JohnDoe2@gmail.com",
+            "password": "123456",
+            "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pexels.com%"
+
+        }
+    ]
+}
