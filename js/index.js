@@ -23,3 +23,7 @@ window.addEventListener("load", async function() {
         <image src="${loggedInUser.image}" />
     `;
 });
+
+document.getElementById("logout").addEventListener("click", function() {
+    window.location.href = "login.html";
+});
