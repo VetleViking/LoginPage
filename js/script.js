@@ -6,15 +6,14 @@ async function getUser(username) {
         let users = data.users;
 
         users.forEach(user => {
-            console.log(user);
             if (user.username === username) {
                 retUser = user;
                 return
             }
         });   
+        
     }).catch(err => {
         console.log(err);
     });
-
     return retUser;
 }

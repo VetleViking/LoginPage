@@ -5,15 +5,15 @@ window.addEventListener("load", async function() {
 
     let username = window.location.href.split("=")[1];
     username = username.split("%20").join(" ");
-    console.log(username);
     let loggedInUser = {};
 
     await getUser(username).then(user => {
         loggedInUser = user;
-        console.log(loggedInUser);
     });
 
-    console.log(loggedInUser.username);
+    if (loggedInUser.username === undefined) {
+        window.location.href = "login.html?error=notfound";
+    }
 
     let userDiv = document.getElementById("loginInfo");
     userDiv.innerHTML = `
