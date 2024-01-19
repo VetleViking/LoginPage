@@ -3,11 +3,34 @@
   height: 500px;
 }
 
-.info {
-}
-
 .conteiner {
   display: flex;
   justify-content: space-around;
   height: 100vh;
+}
+
+.html-code {
+  display: none;
+}
+
+.result {
+  width: 100vw;
+  height: 99vh; 
+  overflow: hidden;
+}
+
+.js-code {
+  display: none;
+}
+
+.iframeContainer {
+  overflow: hidden;
+}
+
+.info {
+  width: 50%;
+}
+
+.css {
+  width: 50%;
 }

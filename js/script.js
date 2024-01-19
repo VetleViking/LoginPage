@@ -20,11 +20,11 @@ async function getUser(username) {
   return retUser;
 }
 
-const css_code = document.getElementById("css-code");
-const body = document.getElementById("body");
+const css_code = document.getElementById('css-code');
+const styleHtml = document.getElementById('styleDiv');
 
 function run() {
-  body.contentDocument.body.innerHTML = `<style>${css_code.value}</style>`;
+    styleHtml.innerHTML = css_code.value;
 }
 
 css_code.onkeyup = () => run();
