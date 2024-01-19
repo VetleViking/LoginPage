@@ -9,28 +9,18 @@
   height: 100vh;
 }
 
-.html-code {
-  display: none;
-}
-
-.result {
-  width: 100vw;
-  height: 99vh; 
-  overflow: hidden;
-}
-
-.js-code {
-  display: none;
-}
-
-.iframeContainer {
-  overflow: hidden;
-}
-
 .info {
   width: 50%;
 }
 
 .css {
   width: 50%;
+}
+
+.btn {
+  margin: 10px;
+  padding: 5px 10px;
+  width: min-content;
+  border: 1px solid #000;
+  cursor: pointer;
 }

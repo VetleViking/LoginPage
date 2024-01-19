@@ -12,7 +12,7 @@ window.addEventListener("load", async function() {
     });
 
     if (loggedInUser.username === undefined) {
-        window.location.href = "login.html?error=notfound";
+        //window.location.href = "login.html?error=notfound";
     }
 
     let userDiv = document.getElementById("loginInfo");
