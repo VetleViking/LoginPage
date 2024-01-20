@@ -6,7 +6,6 @@ window.addEventListener("load", async function() {
             errorDiv.innerHTML = "User not found";
         }
     }
-
 });
 
 document.getElementById("loginBtn").addEventListener("click", async function() {
